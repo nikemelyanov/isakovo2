@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styles from "../Card/Card.module.scss";
+import { Link } from 'react-router-dom';
+import styles from '../Card/Card.module.scss';
 
 function Card({ title, bgImage, linkPath, price, maxWidth }) {
   return (
@@ -14,7 +14,7 @@ function Card({ title, bgImage, linkPath, price, maxWidth }) {
             </div>
           </div>
         )}
-        
+
         <div className={styles.cardHouseTitle}>
           <div className={styles.cardHouseTitleMask}>
             <p>{title}</p>

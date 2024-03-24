@@ -1,5 +1,5 @@
-import styles from "../Maps/Maps.module.scss";
-import ButtonLinkHome from "../../components/ButtonLinkHome";
+import styles from '../Maps/Maps.module.scss';
+import ButtonLinkHome from '../../components/ButtonLinkHome';
 
 function Maps() {
   return (

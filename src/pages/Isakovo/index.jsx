@@ -16,11 +16,11 @@ function Isakovo() {
       <div className={styles.imgContainer}>
         <div className={styles.title}>Природа</div>
         <img src={istraImg1} alt="Природа, поселок, исаково" />
-        <img src={istraImg2} alt="Природа, поселок, исаково"/>
-        <img src={istraImg3} alt="Природа, поселок, исаково"/>
-        <img src={isakovoImg} alt="Природа, поселок, исаково"/>
-        <img src={isakovoImg4} alt="Природа, поселок, исаково"/>
-        <img src={isakovoImg3} alt="Природа, поселок, исаково"/>
+        <img src={istraImg2} alt="Природа, поселок, исаково" />
+        <img src={istraImg3} alt="Природа, поселок, исаково" />
+        <img src={isakovoImg} alt="Природа, поселок, исаково" />
+        <img src={isakovoImg4} alt="Природа, поселок, исаково" />
+        <img src={isakovoImg3} alt="Природа, поселок, исаково" />
         <div className={styles.title}>Инфраструктура</div>
         <img src="https://avatars.mds.yandex.net/get-altay/5100737/2a00000181c8265fc01f7824e584321701d3/XXXL" />
       </div>

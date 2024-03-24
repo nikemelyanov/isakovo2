@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../BurgerButton/BurgerButton.module.scss'
+import styles from '../BurgerButton/BurgerButton.module.scss';
 
 const BurgerButton = () => {
   return (
@@ -9,6 +9,6 @@ const BurgerButton = () => {
       <span className={styles.burgerLine}></span>
     </button>
   );
-}
+};
 
 export default BurgerButton;

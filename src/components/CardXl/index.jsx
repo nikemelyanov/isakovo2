@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styles from "../CardXl/CardXl.module.scss";
+import { Link } from 'react-router-dom';
+import styles from '../CardXl/CardXl.module.scss';
 
 function CardXl({ title, bgImage, linkPath }) {
   return (

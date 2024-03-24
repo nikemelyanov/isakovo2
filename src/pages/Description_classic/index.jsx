@@ -14,7 +14,6 @@ function Description_classic() {
       <img className={styles.houseImg} src={houseImg} alt="Проект дома" />
       <img className={styles.houseImg} src={houseImg2} alt="Проект дома" />
       <img className={styles.houseImg} src={houseImg3} alt="Проект дома" />
-
     </div>
   );
 }

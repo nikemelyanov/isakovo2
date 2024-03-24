@@ -22,7 +22,7 @@ function App() {
   // Preload
   const [loading, setLoading] = React.useState(true);
 
-  const override: CSSProperties = {
+  const override = {
     display: 'block',
     margin: 'auto',
     position: 'absolute',
@@ -81,8 +81,14 @@ function App() {
             <ModalMenu opened={menuOpened} onClickMenu={() => onClickMenu} />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/description_classic" element={<Description_classic />} />
-              <Route path="/description_classic" element={<Description_classic />} />
+              <Route
+                path="/description_classic"
+                element={<Description_classic />}
+              />
+              <Route
+                path="/description_classic"
+                element={<Description_classic />}
+              />
               <Route path="/plans" element={<Plans />} />
               <Route path="/isakovo" element={<Isakovo />} />
               <Route path="/maps" element={<Maps />} />

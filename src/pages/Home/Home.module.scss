@@ -22,7 +22,6 @@
       background-repeat: repeat-x;
       background-attachment: scroll;
       animation: slideBackground 50s linear infinite;
-      // background-size: cover;
 
       background-position: left;
       border-radius: 30px;
@@ -131,6 +130,7 @@
 
 @media screen and (max-width: 768px) {
   .hero {
+    background-size: cover;
     .title {
       p {
         font-size: 15px;

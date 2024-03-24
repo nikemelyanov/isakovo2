@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import BurgerButton from '../BurgerButton'
+import BurgerButton from '../BurgerButton';
 
-import styles from "../Header/Header.module.scss";
+import styles from '../Header/Header.module.scss';
 
 function Header({ onClickMenu }) {
   return (

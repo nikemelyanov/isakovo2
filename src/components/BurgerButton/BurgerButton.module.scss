@@ -1,0 +1,48 @@
+@import '../../variables.scss';
+
+.burgerButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1.3rem;
+  width: 1.8rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  z-index: 50;
+}
+
+.burgerButton {
+  .burgerLine:nth-last-child(3) {
+    width: 80%;
+  }
+}
+
+.burgerButton:hover {
+  .burgerLine:nth-last-child(2) {
+    width: 40%;
+  }
+}
+
+.burgerButton:hover {
+  .burgerLine:nth-last-child(3) {
+    width: 60%;
+  }
+}
+
+.burgerButton:hover {
+  .burgerLine:nth-last-child(1) {
+    width: 80%;
+  }
+}
+
+.burgerLine {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #ffffff;
+  border: 1px solid $primary-color;
+  border-radius: 10px;
+  transition: 0.2s;
+}

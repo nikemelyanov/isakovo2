@@ -1,0 +1,21 @@
+/* HEADER --------------------------------------- */
+.navbar {
+  height: 100px;
+  width: 100%;
+
+  position: fixed;
+  z-index: 25;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarContainer {
+  width: 1440px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+/* HEADER --------------------------------------- */

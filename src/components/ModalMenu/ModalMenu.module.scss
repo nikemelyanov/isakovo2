@@ -1,0 +1,83 @@
+@import '../../variables.scss';
+
+.modalWrapper {
+  height: 100%;
+  width: 100%;
+  transform: translateX(-100%);
+  transition: 0.3s;
+
+  display: flex;
+
+  position: fixed;
+  z-index: 20;
+}
+.modal {
+  width: 300px;
+  height: 100%;
+  background-color: #fafff2;
+  // background-color: #f4ffe3;
+  z-index: 21;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .logo {
+    font-size: 17px;
+    color: $primary-color;
+    margin: 100px 0 20px 0;
+  }
+
+  ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+
+    li {
+      margin: 10px 0 10px 0;
+      .presentHouseFlex {
+        display: flex;
+        p {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  a {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: $primary-color;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: #5e7041;
+  }
+}
+
+.modalClose {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+
+  position: fixed;
+  z-index: 15;
+}
+.modalVisible {
+  transform: translateX(0);
+}
+
+.phone {
+  margin-top: 10px;
+  color: $primary-color;
+  font-size: 17px;
+  font-weight: 100;
+  cursor: pointer;
+}

@@ -1,0 +1,150 @@
+@import '../../variables.scss';
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 70px 15px;
+
+  .main {
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .hero {
+      max-width: 100%;
+      height: 800px;
+      margin: 0 auto;
+      overflow: hidden;
+
+      background-image: url('../../assets/img/is1.png');
+      background-position: left;
+      background-repeat: repeat-x;
+      background-attachment: scroll;
+      animation: slideBackground 50s linear infinite;
+      // background-size: cover;
+
+      background-position: left;
+      border-radius: 30px;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+
+      position: relative;
+
+      @keyframes slideBackground {
+        0% {
+          background-position: left;
+        }
+        100% {
+          background-position: right;
+        }
+      }
+
+      .title {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.15);
+        text-transform: uppercase;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        z-index: 1;
+
+        h1 {
+          font-weight: 800;
+          font-size: 71px;
+          text-align: center;
+
+          span {
+            color: #80975c;
+          }
+        }
+
+        p {
+          font-family: 'Caveat', cursive;
+          font-weight: 400;
+          color: rgba(255, 255, 255, 1);
+          text-align: center;
+
+          display: block;
+          width: 80%;
+        }
+        .startSales {
+          margin-top: 30px;
+        }
+      }
+
+      .poster_wrapper {
+        position: absolute;
+        bottom: 70px;
+        left: 0;
+        z-index: 1;
+
+        .poster {
+          height: 40px;
+          margin-top: 10px;
+          background-color: $primary-color;
+          border-radius: 20px 0px 30px 0px;
+
+          .poster_mask {
+            height: 35px;
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-radius: 20px 0px 30px 0px;
+
+            p {
+              font-size: 12px;
+              text-transform: uppercase;
+              text-align: center;
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+
+    .cards {
+      height: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      margin-top: 70px;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+
+      .cards_mini {
+        width: 35%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    .title {
+      p {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 200;
+      }
+    }
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+
+    .cards_mini {
+      min-width: 100%;
+    }
+  }
+}

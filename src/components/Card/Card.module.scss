@@ -1,0 +1,124 @@
+@import '../../variables.scss';
+
+.cardHouse {
+  min-height: 270px;
+  min-width: 45%;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+
+  position: relative;
+
+  .cardImg {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+
+  .price {
+    height: 35px;
+    background-color: #fff;
+    border-radius: 10px 0px 30px 0px;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    .priceMask {
+      height: 30px;
+      width: 100%;
+      padding: 5px 15px;
+      border-radius: 10px 0px 30px 0px;
+      background-color: $primary-color;
+
+      p {
+        font-size: 15px;
+        color: #fff;
+      }
+    }
+  }
+
+  .cardHouseTitle {
+    height: 35px;
+    width: 75%;
+    background-color: $primary-color;
+    border-radius: 0px 30px;
+
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+
+    .cardHouseTitleMask {
+      height: 30px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 0px 30px 0px 30px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        color: $primary-color;
+        font-family: "Inter", sans-serif;
+        font-size: $card-namesize;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+    }
+  }
+}
+
+.maxWidthAdded {
+  min-width: 50%;
+}
+
+.cardHouse:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1200px) {
+  .cardHouse {
+    min-height: 190px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .cardHouse {
+    min-height: 150px;
+    .price {
+      height: 32px;
+      .priceMask {
+        height: 27px;
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .cardHouseTitle {
+      height: 27px;
+      width: 75%;
+      .cardHouseTitleMask {
+        height: 24px;
+        width: 100%;
+        p {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardHouse {
+    min-height: 370px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cardHouse {
+    min-height: 220px;
+  }
+}

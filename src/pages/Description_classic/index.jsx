@@ -1,6 +1,6 @@
 import styles from './Description200.module.scss';
 
-import ButtonLinkHome from '../../components/ButtonLinkHome';
+import ButtonLinkHome from '../../components/UI/ButtonLinkHome';
 
 import houseImg from '../../assets/img/is3.png';
 import houseImg2 from '../../assets/img/is2.png';

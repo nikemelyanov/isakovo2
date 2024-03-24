@@ -2,15 +2,15 @@ import React from 'react';
 import styles from '../Home/Home.module.scss';
 
 // Card
-import Card from '../../components/Card';
+import Card from '../../components/Cards/Card';
 import Card172 from '../../assets/img/is1.png';
 import Card172H from '../../assets/img/h1.png';
 import CardIstra from '../../assets/img/istra.jpg';
 // CardXl
-import CardXl from '../../components/CardXl';
+import CardXl from '../../components/Cards/CardXl';
 import CardImgNavigation from '../../assets/img/loc4.jpg';
 // CardLandSale
-import CardLandSale from '../../components/CardLandSale';
+import CardLandSale from '../../components/Cards/CardLandSale';
 import landPlotBg from '../../assets/img/landPlotBg.jpg';
 
 function Home() {

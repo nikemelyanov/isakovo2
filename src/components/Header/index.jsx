@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BurgerButton from '../BurgerButton';
+import BurgerButton from '../UI/BurgerButton';
 
 import styles from '../Header/Header.module.scss';
 

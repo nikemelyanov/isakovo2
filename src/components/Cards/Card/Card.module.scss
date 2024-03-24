@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../../variables.scss';
 
 .cardHouse {
   min-height: 270px;
@@ -20,7 +20,7 @@
   }
 
   .price {
-    height: 35px;
+    height: 55px;
     background-color: #fff;
     border-radius: 10px 0px 30px 0px;
 

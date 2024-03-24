@@ -1,6 +1,6 @@
 import styles from '../Plans/Plans.module.scss';
 
-import ButtonLinkHome from '../../components/ButtonLinkHome';
+import ButtonLinkHome from '../../components/UI/ButtonLinkHome';
 
 import plansImg from '../../assets/img/plan2.jpg';
 

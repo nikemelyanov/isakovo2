@@ -1,6 +1,6 @@
 import styles from '../Isakovo/Isakovo.module.scss';
 
-import ButtonLinkHome from '../../components/ButtonLinkHome';
+import ButtonLinkHome from '../../components/UI/ButtonLinkHome';
 
 import isakovoImg from '../../assets/img/isakovo.jpg';
 import isakovoImg3 from '../../assets/img/isakovo3.jpg';

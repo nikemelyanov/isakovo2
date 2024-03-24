@@ -39,9 +39,38 @@ function Description_classic() {
       <img className={styles.houseImg} src={modern2} alt="Проект дома" />
       <img className={styles.houseImg} src={modern1} alt="Проект дома" />
 
-      <p className={styles.subTitle}>План, продуманный до мелчайших деталей</p>
+      <div className={styles.boxPlan}>
+        <p className={styles.title2}>
+          План, продуманный до мельчайших деталей.
+        </p>
+        <img className={styles.houseImg} src={plan} alt="Проект дома" />
+        <div className={styles.boxPlanPoster}>
+          <div className={styles.planInfo}>
+            <p>172м2</p>
+          </div>
+          <div className={styles.planInfo}>
+            <p>Мастер-блок</p>
+          </div>
+          <div className={styles.planInfo}>
+            <p>Постирочная</p>
+          </div>
+          <div className={styles.planInfo}>
+            <p>Просторная гостинная</p>
+          </div>
+          <div className={styles.planInfo}>
+            <p>Эргономично</p>
+          </div>
+          <div className={styles.planInfo}>
+            <p>Терраса для всей семьи</p>
+          </div>
+        </div>
 
-      <img className={styles.houseImg} src={plan} alt="Проект дома" />
+        <p className={styles.text2}>
+          Данный проект много лет дорабатывался нашей командой, он прошел долгий
+          путь от небольшого домика 120м2 до гиганта 400м2. Тем не менее,
+          идеальная формула была найдена не так давно - 172м2.
+        </p>
+      </div>
     </div>
   );
 }

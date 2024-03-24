@@ -3,8 +3,8 @@ import styles from '../Home/Home.module.scss';
 
 // Card
 import Card from '../../components/Card';
-import Card172 from '../../assets/img/is2.png';
-import Card172H from '../../assets/img/h3.png';
+import Card172 from '../../assets/img/is1.png';
+import Card172H from '../../assets/img/h1.png';
 import CardIstra from '../../assets/img/istra.jpg';
 // CardXl
 import CardXl from '../../components/CardXl';

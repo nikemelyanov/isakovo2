@@ -54,7 +54,7 @@ function Home() {
             <Card
               title={'фасад из панелей phomi'}
               bgImage={Card172H}
-              linkPath={'description_hitech'}
+              linkPath={'#'}
               price={'от 18 млн.'}
             />
             <Card

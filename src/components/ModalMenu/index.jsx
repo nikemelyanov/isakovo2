@@ -21,13 +21,13 @@ function ModalMenu({ opened, onClickMenu }) {
             </li>
             <li>
               <Link to={'plans'}>
-                <p>Участок без подряда</p>
+                <p>Выбор дома</p>
               </Link>
             </li>
             <li>
               <Link to={'description-200'}>
                 <div className={styles.presentHouseFlex}>
-                  <p>дом 200м2</p>
+                  <p>Кирпичные фасады</p>
                   <img src={social1} alt="social" width={'15'} />
                 </div>
               </Link>
@@ -35,7 +35,7 @@ function ModalMenu({ opened, onClickMenu }) {
             <li>
               <Link to={'description-150'}>
                 <div className={styles.presentHouseFlex}>
-                  <p>дом 150м2</p>
+                  <p>Фасад phomi</p>
                   <img src={social1} alt="social" width={'15'} />
                 </div>
               </Link>

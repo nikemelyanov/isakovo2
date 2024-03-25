@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import './App.scss';
+import AppContext from './context';
 
 import ClipLoader from 'react-spinners/ClipLoader';
 
-import PreLoad from './components/PreLoad';
 import Header from './components/Header';
 import ModalMenu from './components/ModalMenu';
 
@@ -13,8 +13,6 @@ import Description_classic from './pages/Description_classic';
 import Plans from './pages/Plans';
 import Isakovo from './pages/Isakovo';
 import Maps from './pages/Maps';
-
-import AppContext from './context';
 
 function App() {
   const [menuOpened, setMenuOpened] = React.useState(false);
@@ -36,17 +34,6 @@ function App() {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-  }, []);
-  //
-
-  // Preload 2
-  const [loading2, setLoading2] = React.useState(true);
-
-  React.useEffect(() => {
-    setLoading2(true);
-    setTimeout(() => {
-      setLoading2(false);
-    }, 2000);
   }, []);
   //
 
@@ -76,7 +63,6 @@ function App() {
           />
         ) : (
           <>
-            {loading2 && <PreLoad />}
             <Header onClickMenu={() => onClickMenu} />
             <ModalMenu opened={menuOpened} onClickMenu={() => onClickMenu} />
             <Routes>

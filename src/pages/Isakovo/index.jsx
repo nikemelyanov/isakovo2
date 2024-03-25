@@ -14,10 +14,11 @@ function Isakovo() {
     <div className={styles.main}>
       <ButtonLinkHome />
       <div className={styles.imgContainer}>
-        <div className={styles.title}>Природа</div>
+        <div className={styles.title}>Истринское водохранилище</div>
         <img src={istraImg1} alt="Природа, поселок, исаково" />
         <img src={istraImg2} alt="Природа, поселок, исаково" />
         <img src={istraImg3} alt="Природа, поселок, исаково" />
+        <div className={styles.title}>Исаковский Храм</div>
         <img src={isakovoImg} alt="Природа, поселок, исаково" />
         <img src={isakovoImg4} alt="Природа, поселок, исаково" />
         <img src={isakovoImg3} alt="Природа, поселок, исаково" />

@@ -22,9 +22,7 @@ function Home() {
             <h1>
               isakovo <span>village</span>
             </h1>
-            <p>
-              свой дом в деревне, на берегу водохранилища, в окружении леса.
-            </p>
+            <p>свой дом в окружении леса, рядом с водохранилищем.</p>
           </div>
           <div className={styles.poster_wrapper}>
             <div className={styles.poster}>

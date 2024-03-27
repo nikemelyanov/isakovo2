@@ -63,8 +63,8 @@ function App() {
           />
         ) : (
           <>
-            <Header onClickMenu={() => onClickMenu} />
-            <ModalMenu opened={menuOpened} onClickMenu={() => onClickMenu} />
+            {/* <Header onClickMenu={() => onClickMenu} />
+            <ModalMenu opened={menuOpened} onClickMenu={() => onClickMenu} /> */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route

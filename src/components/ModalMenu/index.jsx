@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import styles from '../ModalMenu/ModalMenu.module.scss';
 
-import social1 from '../../assets/icons/1.png';
 
 function ModalMenu({ opened, onClickMenu }) {
   return (

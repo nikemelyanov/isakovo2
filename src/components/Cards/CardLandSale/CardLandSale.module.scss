@@ -2,7 +2,7 @@
 .cardHouse {
   min-height: 700px;
   min-width: 30%;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 15px 15px 15px 15px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: 0.2s;
@@ -65,7 +65,7 @@
     width: 70%;
     background-color: $primary-color;
     color: #fff;
-    border-radius: 0px 30px;
+    border-radius: 0px 30px 0px 15px;
     font-family: 'Inter', sans-serif;
     font-size: $card-namesize;
     text-transform: uppercase;

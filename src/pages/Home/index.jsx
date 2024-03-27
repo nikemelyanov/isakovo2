@@ -19,15 +19,17 @@ function Home() {
       <div className={styles.main}>
         <div className={styles.hero}>
           <div className={styles.title}>
+            <p>КУПИТЬ ДОМ В</p>
             <h1>
               isakovo <span>village</span>
             </h1>
-            <p>свой дом в окружении леса, рядом с водохранилищем.</p>
+            {/* <p>свой дом в окружении леса, рядом с водохранилищем.</p> */}
           </div>
           <div className={styles.poster_wrapper}>
             <div className={styles.poster}>
               <div className={styles.poster_mask}>
-                <p>Вокруг лес и вода</p>
+                <p>
+                удобные планировки</p>
               </div>
             </div>
             <div className={styles.poster}>
